@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <nav class="sidebar">
+            <a href="#" class="brand">
+                <h1>Tracker</h1>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-circle-notch"></i>
+                        <span>Overview</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Linkedin</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                        <span>Youtube</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-pinterest"></i>
+                        <span>Pinterest</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-quora"></i>
+                        <span>Qura</span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <i class="fab fa-github"></i>
+                        <span>Github</span>
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <ul class="help">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        <span>Help</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <nav class="navbar">
+            <div class="input-wrap panel">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Seach">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fas fa-moon" id="darkToggle"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-cog"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-bell"></i>
+                    </li>
+                </ul>
+
+                <div class="profile panel">
+                    <div>
+                        <img src="./assets/profile.jpg" alt="profile image">
+                        <span>Rajesh Choudhary</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-angle-down"></i>                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="dash">
+            <div class="stats">
+                <h1 class="title"> Instagram</h1>
+                <div class="overview">
+                    <div class="panel">
+                        <div class="icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h2>1,345</h2>
+                            <small>Weekly Followers</small>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div>
+                            <div class="icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>35,357</h2>
+                            <small>Weekly Likes</small>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div>
+                            <div class="icon">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>8,457</h2>
+                            <small>Weekly Comments</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-info">
+                    <div class="profile-card panel">
+                        <img src="./assets/profile.jpg" alt="user">
+                        <h3>Rajesh Choudhary</h3>
+                        <small>Student</small>
+                        <p>
+                            Curious Creature from India
+                        </p>
+                        <a href="#">
+                            <b>www.rtsgallery.com</b>
+                        </a>
+                        <p>
+                            Jaipur, Rajasthan
+                        </p>
+                        <div class="profile-stats">
+                            <div>
+                                <h2>404</h2>
+                                <small>Post</small>
+                            </div>
+                            <div>
+                                <h2>12k</h2>
+                                <small>Followers</small>
+                            </div>
+                            <div>
+                                <h2>155</h2>
+                                <small>Following</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel chart-containner">
+                        <canvas id="linechart"></canvas>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <img src="./assets/rain_lhc.jpg" alt="" class="photo">
+                    <img src="./assets/view_from_lh16.jpg" alt="" class="photo">
+                    <img src="./assets/academic_area.jpg" alt="" class="photo">
+                    <div class="thumbnails">
+                        <img src="./assets/rain_lhc.jpg" alt="" class="photo">
+                        <img src="./assets/library_sun.jpg" alt="" class="photo">
+                        <img src="./assets/view_from_lh16.jpg" alt="" class="photo">
+                        <img src="./assets/L20_student_leaving.jpg" alt="" class="photo">
+                    </div>
+                </div>
+            </div>
+            <div class="activities">
+                <div class="activities-header">
+                    <h3>Activities</h3>
+                    <a href="">See all </a>
+                </div>
+                <div class="post panel">
+                    <div class="post-header">
+                        <img src="./assets/abhishek_profile.jpg" alt="" class="user-image">
+
+                        <div>
+                            <h4>Abhishek kumar</h4>
+                            <small>Commented on your photo</small>
+                        </div>
+                    </div>
+                    <div class="post-body">
+                        <p>
+                           Ab apun bhi cimvil Emgineer banega
+                        </p>
+                        <img src="./assets/academic_area.jpg" alt="" class="photo">
+                    </div>
+                   
+                    <div>
+                        <small> 1 h ago</small>
+                        <button>
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="fas fa-share"></i>
+                        </button>
+                        <button>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="post panel">
+                    <div class="post-header">
+                        <img src="./assets/yash_profile.jpg" alt="" class="user-image">
+
+                        <div>
+                            <h4>Yash Kumar </h4>
+                            <small>Commented on your photo</small>
+                        </div>
+                    </div>
+                    <div class="post-body">
+                        <p>
+                            Ulta kyo chal raha h .......... h kya
+                        </p>
+                        <img src="./assets/rain_lhc.jpg" alt="" class="photo">
+                    </div>
+                    
+                    <div>
+                        <small> 3 h ago</small>
+                        <button>
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="fas fa-share"></i>
+                        </button>
+                        <button>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="post panel">
+                    <div class="post-header">
+                        <img src="./assets/amritansh_profile.jpg" alt="" class="user-image">
+
+                        <div>
+                            <h4>Amritansh</h4>
+                            <small>Commented on your photo</small>
+                        </div>
+                    </div>
+                    <div class="post-body">
+                        <p>
+                           ek kaam kar tu mera phone lele, ni 20E to mera algorith kharab kar dega
+                        </p>
+                        <img src="./assets/view_from_lh16.jpg" alt="" class="photo">
+                    </div>
+                   
+                    <div>
+                        <small> 5 h ago</small>
+                        <button>
+                            <i class="fas fa-heart"></i>
+                        </button>
+                        <button>
+                            <i class="fas fa-share"></i>
+                        </button>
+                        <button>
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="color-pallete">
+                    <h3>Theme colors</h3>
+                    <div class="colors">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e62294c5aa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
