@@ -57,13 +57,13 @@ ul
     top: 0;
     left: 0;
     height: 100%;
-    padding: 2rem;
+    padding: 1rem;
     width: 16rem;
     overflow-y: scroll;
 }
 
 .sidebar::-webkit-scrollbar{
-    width: 0.5rem;
+    width: 0.2rem;
 }
 
 ::-webkit-scrollbar-track{
@@ -414,7 +414,7 @@ main{
     }
 
     .sidebar{
-        width: 6em;
+        width: 4em;
         padding: 1em;
     }
 
