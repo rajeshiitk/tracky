@@ -188,7 +188,7 @@ main{
 }
 
 .profile {
-    min-width: 15em;
+    min-width: 16em;
     padding: 0.5em 0.8em;
     cursor: pointer;
     margin-left: 1em; 
@@ -424,7 +424,7 @@ main{
     }
 
     .sidebar{
-        width: 5em;
+        width: 6em;
         padding: 1em;
     }
 
