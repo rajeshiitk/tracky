@@ -83,7 +83,7 @@ ul
 
 
 .sidebar ul:not(.help){
-    margin: 2em 0 5em 0;
+    margin: 0em 0 2em 0;
 }
 
 .sidebar ul i{
@@ -91,7 +91,6 @@ ul
     font-size: 1.5em;
     margin-right: 0.5em;
 }
-
 
 .sidebar ul li{
     margin: 0.5em 0;
@@ -132,6 +131,7 @@ main{
     padding: 2em;
 }
 .sidebar .color-pallete{
+
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
