@@ -19,6 +19,7 @@
     box-sizing: border-box;
      margin: 0;
     }
+
 body {
     margin: 0;
     font-family:
@@ -27,7 +28,7 @@ body {
     background: var(--secondary);
     color: var(--text-default);
     display: grid;
-    grid-template-columns: 16em auto;
+    grid-template-columns: 15em auto;
     transition: 0.3s ease-in-out;
 }
 
@@ -57,7 +58,7 @@ ul
     top: 0;
     left: 0;
     height: 100%;
-    padding: 1rem;
+    padding: 2rem;
     width: 16rem;
     overflow-y: scroll;
 }
@@ -414,7 +415,7 @@ main{
     }
 
     .sidebar{
-        width: 4em;
+        width: 5em;
         padding: 1em;
     }
 
@@ -443,5 +444,10 @@ main{
         flex-direction: column;
         gap: 2em ;
     }
+
+    
+main{
+    padding-left: 0.5em;
+}
 }
 
