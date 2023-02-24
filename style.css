@@ -131,7 +131,16 @@ ul
 main{
     padding: 2em;
 }
+.sidebar .color-pallete{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
+
+.sidebar .color-pallete .colors ul li{
+    padding: 1em 1em;
+}
 .panel{
     background: var(--primary);
     background: var(--primary);
