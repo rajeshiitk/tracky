@@ -21,7 +21,7 @@
     }
 
 body {
-    width: 100%;
+    width: calc(100% - 6em);
     margin: 0;
     font-family:
         'Roboto Condensed', sans-serif;
