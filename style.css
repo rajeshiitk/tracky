@@ -447,8 +447,8 @@ main{
     }
 
     body{
-        grid-template-columns: 6em auto;
-        width: fit-content;
+        grid-template-columns: 6em 270px;
+        /* max-width: 280; */
     }
     
     .navbar ,.navbar .menu{
