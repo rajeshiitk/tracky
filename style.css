@@ -21,7 +21,7 @@
     }
 
 body {
-    width: calc(100%);
+    width: 100%;
     margin: 0;
     font-family:
         'Roboto Condensed', sans-serif;
@@ -130,6 +130,7 @@ ul
 
 main{
     padding: 2em;
+    width: 100%;
 }
 .sidebar .color-pallete{
 
@@ -447,8 +448,8 @@ main{
     }
 
     body{
-        grid-template-columns: 6em 270px;
-        /* max-width: 280; */
+        grid-template-columns: 6em auto;
+        max-width: 280;
     }
     
     .navbar ,.navbar .menu{
@@ -457,7 +458,10 @@ main{
         flex-direction: column;
         gap: 2em ;
     }
-
+  
+    .sidebar{
+        position: static;
+    }
     
 main{
     padding-left: 0em;
