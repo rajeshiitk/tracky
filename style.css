@@ -459,9 +459,7 @@ main{
         gap: 2em ;
     }
   
-    .sidebar{
-        position: static;
-    }
+    
     
 main{
     padding-left: 0em;
